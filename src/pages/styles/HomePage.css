@@ -1,0 +1,55 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    transform: translatey(25%);
+}
+.homepage__img {
+    width: 676px;
+    height: 121px;
+    top: 256px;
+    left: 389px;
+}
+.homepage__trainer {
+    text-transform: capitalize;
+    text-align: center;
+    color: #FE1936;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 1em;
+}
+.homepage__text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+.homepage__input {
+    border: 1px solid grey;
+    height: 3em;
+    width: 20em;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 7.8rem;
+}
+.homepage__btn {
+    height: 3em;
+    width: 10em;
+    color: white;
+    background-color: #c42e42;
+    font-size: 15px;
+    filter: grayscale(0.1);
+}
+.homepage__btn:hover {
+    filter: grayscale(0);
+}
+
+.footer__red__hr{
+    border: 30px solid red;
+    width: 100rem ;
+}
+.footer__black__hr{
+    border: 20px solid black;
+    width: 100rem ;
+}

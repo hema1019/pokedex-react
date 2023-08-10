@@ -1,0 +1,199 @@
+.pokeid {
+    width: 100%;
+    height: 100%;
+}
+  .pokeid__img1 {
+    width: 431px;
+    height: 76px;
+    top: 47px;
+    left: 133px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+  .pokeid__redhr {
+    border: 30px solid red;
+    width: 100rem ;
+}
+  .pokeid__blackhr {
+    border: 20px solid black;
+    width: 100rem ;
+}
+.pokeid__back-image {
+  border: none;
+  padding: 0rem 3rem;
+  margin-top: 9rem;
+}
+.upper__page {
+  border: none;
+  margin: 5rem;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 16px 0px;
+}
+.pokeid__header {
+    background-color: #999;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+.pokeid__img {
+    position: absolute;
+    width: 341px;
+    height: 314px;
+    top: 195px;
+    left: 550px;
+    transform: translateY(-100%);
+}
+.pokeid__main-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+}
+.pokeid__number {
+    border: 2px solid rgb(236, 236, 236);
+    padding: 0.2em 0.3em;
+    margin: 1rem 0rem;
+    border-radius: 2px;
+    font-size: 40px;
+}
+.pokeid__name {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: 500;
+}
+.pokeid__1st-titles {
+  font-size: 25px;
+  font-weight: 500;
+}
+.pokeid__1st-values {
+  font-size: 25px;
+  font-weight: 500;
+}
+.pokeid__typeinfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pokeid__abilityinfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pokeid__2nd-titles {
+  text-align: right;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0.3em;
+}
+.pokeid__2nd-values {
+  text-align: center;
+  border: 1px solid grey;
+  width: 12rem;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0.3em;
+}
+.pokeid__stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+.pokeid__stats-maintitle {
+  margin: 2rem;
+}
+.pokeid__stats-titles {
+  font-size: 24px;
+  font-weight: 600;
+}
+.hp__hr {
+  border: 10px solid  hsla(43, 96%, 73%, 1);
+  width: 422px;
+  margin-bottom: 0.5rem;
+}
+.attack__hr {
+  border: 10px solid  rgba(230, 144, 30, 1);
+  width: 422px;
+  margin-bottom: 0.5rem;
+}
+.defense__hr {
+  border: 10px solid  hsla(43, 96%, 73%, 1);
+  width: 422px;
+  margin-bottom: 0.5rem;
+}
+.speed__hr {
+  border: 10px solid  rgba(230, 144, 30, 1);
+  width: 422px;
+}
+.pokeid__movements {
+  border: none;
+  margin: 5rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 16px 0px;
+}
+.pokeid__movements-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 5rem;
+  align-items: center;
+}
+.pokeid__movements-name {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  background-color: #E5E5E5;
+  width: 228px;
+  height: 64px;
+  top: 1826px;
+  left: 441px;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.pokeid__movements-title {
+  font-size: 45px;
+  font-weight: 500;
+  text-align:left;
+  margin: 4rem 0rem 3rem 5rem;
+}
+.fire-gradient {
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+    ;
+  }
+  .grass-gradient {
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  }
+  .water-gradient {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+  }
+  .bug-gradient {
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+  }
+  .fire-border {
+    border-color: #ce5f1a;
+  }
+  .grass-border {
+    border-color: #ABDAC6 ;
+  }
+  .water-border {
+    border-color: #1479FB ;
+  }
+  .bug-border {
+    border-color: #3BB039;
+  }
+  .fire-color {
+    color: #ce5f1a;
+  }
+  .grass-color {
+    color: rgba(65, 100, 96, 1);
+  }
+  .water-color {
+    color: rgb(69, 69, 225);
+  }
+  .bug-color {
+    color: #3BB039;
+  }

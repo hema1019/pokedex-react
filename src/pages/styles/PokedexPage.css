@@ -1,0 +1,62 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 1em;
+}
+.header__img {
+    width: 431px;
+    height: 76px;
+    top: 47px;
+    left: 133px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.header__red__hr {
+    border: 30px solid red;
+    width: 100rem ;
+}
+.header__black__hr {
+    border: 20px solid black;
+    width: 100rem ;
+}
+.header__text-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+}
+.header__text {
+    font-size: 24px;
+    font-weight: 400;
+    text-align:left;
+    grid-column: span 2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+.header__welcome {
+    color: #FE1936;
+    font-weight: 700;
+}
+.header__input {
+    border: 1px solid grey;
+    height: 3em;
+    width: 20em;
+    font-size: 15px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.header__btn {
+    height: 3em;
+    width: 10em;
+    color: white;
+    background-color: #c42e42;
+    font-size: 15px;
+    filter: grayscale(0.1);
+}
+.header__btn:hover {
+    filter: grayscale(0);
+}
